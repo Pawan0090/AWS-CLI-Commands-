@@ -1,0 +1,15 @@
+Hi you can use AWS CLI for for quick refernce and for the samll process in your organisation - example if your manager ask for you to Hi Pawan could you please provide me the list of S3 buckets
+store in our AWS account so what u can do that instited of writing terraform scripts or AWS CFT u can use AWS CLI using the commands you can get the information required 
+
+aws s3 ls - so this command will going to list the S3 buckets in you account 
+
+you can also create and terminate ec2 instance Using CLI for the you can search AWS CLI refernce and there you can find the command and according to you need you can frame your commands
+and use in AWS CLI 
+
+Example - if you want to Run Ec2 Instance on your AWS account the command which is used is - 
+
+aws ec2 run-instances --image-id (mention you am-i id) --instance-type (t2.micro) -- count (number of instance u want) --key-name (value) --region 
+
+for terminating the command you can use 
+
+aws ec2 terminate-instances --instance-ids(mention the instance id it's present in the json output file) 
